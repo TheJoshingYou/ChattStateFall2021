@@ -1,5 +1,5 @@
 body   {
-    background-color: #4C5973;
+    background-color: #8b97af;
     font-family: 'ZCOOL KuaiLe', cursive;
 }
 
@@ -8,16 +8,16 @@ body   {
     - We use a "." to refer to classes
     */
 #container {
-    background-color: #F26D6D;
+    background-color: #42382c;
     width: 900px;
     margin: 20px auto;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px #13172c;
 }
 
 header {
     padding: 20px 0;
-    background-color: #CEF299;
+    background-color: #2f6934;
     border-radius: 20px 20px 0 0;
     text-shadow: 2px 2px 2px black;
 }
@@ -31,25 +31,25 @@ header img {
 header h1 {
     font-size: 2.5em;
     text-align: center;
-    color: #F26D6D;
+    color: #15f800;
     font-family: 'Lobster', cursive;
 }
 
 nav {
-    background-color: #F26D6D;
+    background-color: #42382c;
     padding-top: 10px;
     text-align: center;
 }
 
 nav a {
     display: inline-block;
-    background-color: #CEF299;
+    background-color: #5e5850;
     height: 50px;
     width: 175px;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 50px;
-    color: #4C5973;
+    color: #2b2b2b;
     text-decoration: none;
     border-radius: 10px 10px 0 0;
     margin: 0 10px;
@@ -57,19 +57,20 @@ nav a {
 
 /* this ":hover" is a state of when the mouse rolls over, you get an effect */
 nav a:hover {
-    background-color: #4C5973;
-    color: #CEF299;
+    background-color: #35492d;
+    color: #48ff00;
 }
 
 main {
-    background-color: #CEF299;
+    background-color: #61503a;
     padding: 20px;
+    border-radius: 5px 5px 5px 5px;
     margin: 0 20px 20px 20px;
 }
 
 main h2 {
     text-align: center;
-    color: #4C5973;
+    color: #1f221f;
     font-size: 2em;
     font-family: 'Lobster', cursive;
 }
@@ -78,16 +79,16 @@ main img {
     display: block;
     width: 50%;
     margin: 20px auto;
-    background-color: #4C5973;
+    background-color: #352f29;
     padding: 20px;
     border-radius: 20px;
 }
 
 
 footer {
-    background-color: #CEF299;
+    background-color: #5a5a5a;
     padding: 50px 0;
-    color: #F26D6D;
+    color: #000000;
     font-size: 1.5em;
     text-align: center;
     border-radius: 0 0 20px 20px;
@@ -97,13 +98,54 @@ footer {
 active is the id of the class
 */
 .active {
-    background-color: #4C5973;
-    color: #CEF299;
+    background-color: #61503a;
+    color: #102c15;
+    box-shadow: 2px 0 2px 0 #332b17;
 }
 
 .pro_head {
     text-align: center;
-    color: #F26D6D;
+    color: #16130b;
     font-size: 1.5em;
     font-family: 'Lobster', cursive;
+}
+
+.pro_head_2 {
+    text-align: center;
+    color: #252525;
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 2px #49412b;
+}
+
+.secret_message_1 {
+    text-align: left;
+    font-size: .5em;
+    color: #42382c;
+}
+
+.secret_message_2 {
+    text-align: center;
+    font-size: .5em;
+    color: #42382c;
+}
+
+.secret_message_3 {
+    text-align: end;
+    font-size: .5em;
+    color: #42382c;
+}
+
+.secret_message_4 {
+    text-align: center;
+    font-size: .75em;
+    color: rgb(22, 22, 22);
+    text-shadow: 2px 2px 2px white;
+}
+
+.product_pricing {
+    text-align: center;
+    font-size: 1em;
+    color: ;
+    text-shadow: 1px 1px 1px #51ff00;
 }
