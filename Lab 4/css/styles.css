@@ -1,0 +1,221 @@
+/* Global Styles */
+    body {
+        background-color: #494055;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+/* Mobile Styles */
+    #container {
+        background-color: #3e5d79;
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid grey;
+        box-shadow: 4px 4px 4px rgb(204, 211, 204);
+        border-radius: 23px;
+    }
+
+    header {
+        background-image: url('../images/custom/background_cover.jpg');
+        background-size: cover;
+        padding: 70px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    header h1 {
+        color: #F2CF8D;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: #a83c3c;
+        color: #ffae00;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    nav li a:hover {
+        background-color: #49ac1c;
+        color: #fbff00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    nav, section, aside, .col, footer {
+        background-color: #e2ba70;
+        padding: 20px;
+        margin: 10px;
+        border: 4px solid #c90a1a;
+        border-radius: 10px;
+    }
+
+    h2, h3 {
+        color: #8C031C;
+        text-shadow: 2px 2px 2px black;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    section img, aside img {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+
+    .button {
+        display: block;
+        background-color: #a83c3c;
+        color: #ffae00;
+        height: 40px;
+        width: 200px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+        /* bruv, you can hover state anything! */
+    .button:hover {
+        background-color: #49ac1c;
+        color: #fbff00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    footer {
+        text-align: center;
+        color: black;
+        text-shadow: 2px 2px 2px gray;
+        /* margin-bottom: 10px; */
+    }
+
+    .single_col {
+        width: 100%;
+    }
+   
+    .single_col {
+        width: 85%;
+        margin: auto;
+    }
+
+    audio, video, iframe {
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    }
+
+    .gallery_image {
+        border: 4px solid #8C031C;
+        border-radius: 10px;
+        margin: 10px auto;
+    }
+
+    table {
+        display: none;
+    }
+
+/* Tablet Styles */
+    @media(min-width: 768px) {
+        header {
+            padding: 125px;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        nav {
+            text-align: center;
+            padding: 5px;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+        nav li a {
+            height: 50px;
+            line-height: 50px;
+            width: 200px;
+        }
+
+        #upper_flex {
+            display: flex;
+        }
+
+        section, aside {
+            width: 50%;
+        }
+
+        aside img {
+            width: 50%;
+        }
+
+        .col img {
+            width: 60%;
+            border-radius: 10px;
+            border: 4px solid #c90a1a;
+        }
+    }
+
+
+/* Desktop Styles */
+    @media(min-width: 1024px) {
+        nav li a {
+            margin: 0 20px;
+        }
+
+        #lower_flex {
+            display: flex;
+        }
+
+        .col {
+            width: 100%;
+        }
+
+        .col img {
+            width: 85%;
+        }
+
+        .single_col {
+            width: 90%;
+            margin: auto;
+        }
+
+        table, tr, td {
+            border: 4px solid #8C031C;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        table img {
+            width: 100%;
+        }
+
+        .gallery {
+            display: none;
+        }
+
+        table {
+            display: block;
+        }
+    }
