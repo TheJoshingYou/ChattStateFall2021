@@ -1,12 +1,21 @@
 /* Global Styles */
     body {
         background-color: #494055;
+        font-family: 'Glory', sans-serif;
     }
 
     img {
         display: block;
         max-width: 100%;
         margin: 0 auto;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Roboto Mono', monospace;
     }
 
 /* Mobile Styles */
