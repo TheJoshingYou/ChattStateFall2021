@@ -1,0 +1,245 @@
+/* Global Styless */
+    body {
+        background-image: url('../images/final/test_background.jpg');
+        background-size: cover;
+        font-family: 'Glory', sans-serif;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+/* Mobile Styles */
+    #container {
+        background-image: url('../images/final/container_background.jpg');
+        background-size: cover;
+        width: 75%;
+        margin: 20px auto;
+        border: 3px solid rgb(66, 54, 70);
+        box-shadow: 4px 4px 4px rgb(77, 40, 112);
+        border-radius: 23px;
+    }
+
+    header {
+        background-image: url('../images/final/header_background_main.jpg');
+        background-size: cover;
+        padding: 70px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    header h1 {
+        color: #660101;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: #644d72;
+        color: #1d0458;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    nav li a:hover {
+        background-color: #9c426c;
+        color: #ffae00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    nav, section, aside, .col, footer {
+        background-color: #302649;
+        padding: 20px;
+        margin: 10px;
+        border: 4px solid #3e5f66;
+        border-radius: 10px;
+    }
+
+    h2, h3 {
+        color: #8C031C;
+        text-shadow: 2px 2px 2px black;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    section img, aside img {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+
+    .astronomer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    .button {
+        display: block;
+        background-color: #a83c3c;
+        color: #ffae00;
+        height: 40px;
+        width: 200px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+        /* bruv, you can hover state anything! */
+    .button:hover {
+        background-color: #49ac1c;
+        color: #fbff00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    footer {
+        text-align: center;
+        color: black;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 2px gray;
+        /* margin-bottom: 10px; */
+    }
+
+    .single_col {
+        width: 100%;
+    }
+   
+    .single_col {
+        width: 85%;
+        margin: auto;
+    }
+
+    audio, video, iframe {
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    }
+
+    .gallery_image {
+        width: 250px;
+        height: 250px;
+        border: 4px solid #8C031C;
+        border-radius: 10px;
+        margin: 10px auto;
+    }
+
+    table {
+        display: none;
+    }
+
+/* Tablet Styles */
+    @media(min-width: 768px) {
+        header {
+            padding: 125px;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        nav {
+            text-align: center;
+            padding: 5px;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+        nav li a {
+            height: 50px;
+            line-height: 50px;
+            width: 200px;
+        }
+
+        #upper_flex {
+            display: flex;
+        }
+
+        section, aside {
+            width: 50%;
+        }
+
+        aside img {
+            width: 50%;
+        }
+
+        .col img {
+            width: 50%;
+        }
+    }
+
+
+/* Desktop Styles */
+    @media(min-width: 1024px) {
+        nav li a {
+            margin: 0 20px;
+        }
+
+        #lower_flex {
+            display: flex;
+        }
+
+        .col {
+            width: 100%;
+        }
+
+        .col img {
+            width: 85%;
+        }
+
+        .single_col {
+            width: 90%;
+            margin: auto;
+        }
+
+        table, tr, td {
+            border: 4px solid #8C031C;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        table img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+
+        .gallery {
+            display: none;
+        }
+
+        table {
+            display: block;
+        }
+    }
